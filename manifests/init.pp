@@ -10,7 +10,7 @@
 #
 # Sample Usage:
 #
-class cluster_role (
+class cluster_app (
   
     $cluster      = undef,
     $app          = undef,
