@@ -1,0 +1,41 @@
+{
+  "author": "dimarra",
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">= 3.2.0 < 5.0.0"}
+  ],
+  "license": "",
+  "name": "RDimar-cluster_app",
+  "operatingsystem_support": [
+    {
+      "operatingsystem":"RedHat",
+      "operatingsystemrelease":[ "6", "7" ]
+    },
+    {
+      "operatingsystem":"CentOS",
+      "operatingsystemrelease":[ "6", "7" ]
+    },
+    {
+      "operatingsystem":"Ubuntu",
+      "operatingsystemrelease":[ "14.04" ]
+    },
+    {
+      "operatingsystem":"Debian",
+      "operatingsystemrelease":[ "8" ]
+    }
+  ],
+  "project_page": "https://github.com/dimarra/cluster_role",
+  "requirements": [
+    {
+      "version_requirement": ">= 2.7.0 < 2016.1.0",
+      "name": "pe"
+    },
+    {
+      "version_requirement": ">= 2.7.14 < 5.0.0",
+      "name": "puppet"
+    }
+  ],
+  "source": "https://github.com/dimarra/cluster_app.git",
+  "summary": "creates facts for cluster and app",
+  "tags": ["facter", "puppet"],
+  "version": "0.1.0"
+}
